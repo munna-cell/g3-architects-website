@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
+}
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: none;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.text-primary{
+    color: rgba(255, 144, 14, 1);
+}
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+/* dark-02 */
+.text-gray{
+    color: #424242;
+}
+ 
+/* dark03 */
+
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar related styles */
+
+.nav-item{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.brand{
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width: 861px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 4rem; 
+    font-size: 64px;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.banner-description{
+    margin-bottom: 32px;
+}
+
+/* teams feature */
+
+.team{
+    align-items: center;
+    margin-top: 85px;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-feature{
+    margin-left: 73px;
+    max-width: 537px;
+}
+
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.feature-description{
+    margin-bottom: 32px;
+}
+
+#quick-list{
+    font-weight: 500;
+}
+/* feature section relate  */
+
+.features{
+    gap: 146px;
+    margin-top: 126px;
+}
+
+.title{
+    margin-top: 30px;
+}
+#feature-section-title{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding-left: 21px;
+}
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#Experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin-left: -92px;
+    margin-top: -117px;
+}
+
+#Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+
+/* some fact style  */
+
+.margin{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 180px;
+}
+
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+    border: 1px solid rgba(255, 144, 14, 1);
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-number{
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    margin-bottom:5px ;
+}
+
+.fact-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.fact-description{
+    max-width: 540px;
+}
+
+/* sponsors style  */
+
+.our{
+    padding-bottom: 00px;
+}
+.sponsors-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsors-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.All{
+    padding: 49px 410px;
+    border: 1px solid rgba(255, 244, 231, 1) ;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-right: 280px;
+}
+
+.whatsapp{
+    align-items: center;
+    justify-content: space-between;
+    padding: 29px 210px;
+    border: 1px solid rgba(255, 244, 231, 1) ;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 220px;
+    margin-right: 280px;
+}
+
+.footer{
+    background-color: rgba(255, 244, 231, 1) ;
+}
+
+/* responsive media quary */
+
+@media screen and ( max-width: 576px) {
+    .navbar,
+    .nav-links,
+    .team,
+    .features,
+    .whatsapp
+    {
+        flex-direction: column;
+    }
+
+    .team-img-container ,
+    .facts-container,
+    .sponsors-company,
+    {
+        grid-template-columns: 1fr;
+    }
+    .facts-container,{
+        justify-items: center;
+        gap: 24px;
+    }
+
+    .sponsors-company{
+        justify-items: center;
+        gap: 50px;
+    }
+    .our-feature{
+        margin-left: 20px;
+    }
+    #Experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .featured-architect img{
+        width: 100%;
+    }   
+} 
+
+/* medium size device */
+    
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .team, .features{
+        flex-direction: column;
+    }
+    .our-feature{
+        margin: 40px auto;
+    }
+
+    .sponsors-company, .facts-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+
+    #Experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}    
